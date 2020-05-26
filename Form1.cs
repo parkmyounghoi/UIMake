@@ -19,6 +19,7 @@ namespace UIMake
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("학생등록버튼누름");
             menuBar.Location = new System.Drawing.Point(12, 143);
         }
 
