@@ -10,3 +10,4 @@ C:\Users\KB\source\repos\UIMake\obj\Debug\UIMake.pdb
 C:\Users\KB\source\repos\UIMake\obj\Debug\UIMake.studentdel.resources
 C:\Users\KB\source\repos\UIMake\obj\Debug\UIMake.studentreg.resources
 C:\Users\KB\source\repos\UIMake\obj\Debug\UIMake.studentsearch.resources
+C:\Users\KB\source\repos\UIMake\obj\Debug\UIMake.csprojAssemblyReference.cache

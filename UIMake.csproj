@@ -106,5 +106,10 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="studentdel.png" />
+    <Content Include="studentreg.png" />
+    <Content Include="studentsearch.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
