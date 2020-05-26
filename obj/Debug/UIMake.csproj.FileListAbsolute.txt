@@ -1,10 +1,12 @@
 C:\Users\KB\source\repos\UIMake\bin\Debug\UIMake.exe.config
 C:\Users\KB\source\repos\UIMake\bin\Debug\UIMake.exe
 C:\Users\KB\source\repos\UIMake\bin\Debug\UIMake.pdb
-C:\Users\KB\source\repos\UIMake\obj\Debug\UIMake.csprojAssemblyReference.cache
 C:\Users\KB\source\repos\UIMake\obj\Debug\UIMake.Form1.resources
 C:\Users\KB\source\repos\UIMake\obj\Debug\UIMake.Properties.Resources.resources
 C:\Users\KB\source\repos\UIMake\obj\Debug\UIMake.csproj.GenerateResource.cache
 C:\Users\KB\source\repos\UIMake\obj\Debug\UIMake.csproj.CoreCompileInputs.cache
 C:\Users\KB\source\repos\UIMake\obj\Debug\UIMake.exe
 C:\Users\KB\source\repos\UIMake\obj\Debug\UIMake.pdb
+C:\Users\KB\source\repos\UIMake\obj\Debug\UIMake.studentdel.resources
+C:\Users\KB\source\repos\UIMake\obj\Debug\UIMake.studentreg.resources
+C:\Users\KB\source\repos\UIMake\obj\Debug\UIMake.studentsearch.resources

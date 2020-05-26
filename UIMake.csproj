@@ -54,6 +54,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="studentdel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="studentdel.Designer.cs">
+      <DependentUpon>studentdel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="studentreg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="studentreg.Designer.cs">
+      <DependentUpon>studentreg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="studentsearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="studentsearch.Designer.cs">
+      <DependentUpon>studentsearch.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -66,6 +84,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="studentdel.resx">
+      <DependentUpon>studentdel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="studentreg.resx">
+      <DependentUpon>studentreg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="studentsearch.resx">
+      <DependentUpon>studentsearch.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

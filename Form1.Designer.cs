@@ -34,10 +34,15 @@
             this.menuBar = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.studentreg1 = new UIMake.studentreg();
+            this.studentsearch1 = new UIMake.studentsearch();
+            this.studentdel1 = new UIMake.studentdel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -93,11 +98,44 @@
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.studentdel1);
+            this.panel2.Controls.Add(this.studentsearch1);
+            this.panel2.Controls.Add(this.studentreg1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(181, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(658, 716);
+            this.panel2.TabIndex = 1;
+            // 
+            // studentreg1
+            // 
+            this.studentreg1.Location = new System.Drawing.Point(0, 0);
+            this.studentreg1.Name = "studentreg1";
+            this.studentreg1.Size = new System.Drawing.Size(658, 716);
+            this.studentreg1.TabIndex = 0;
+            // 
+            // studentsearch1
+            // 
+            this.studentsearch1.Location = new System.Drawing.Point(0, 0);
+            this.studentsearch1.Name = "studentsearch1";
+            this.studentsearch1.Size = new System.Drawing.Size(658, 716);
+            this.studentsearch1.TabIndex = 1;
+            // 
+            // studentdel1
+            // 
+            this.studentdel1.Location = new System.Drawing.Point(0, 0);
+            this.studentdel1.Name = "studentdel1";
+            this.studentdel1.Size = new System.Drawing.Size(658, 716);
+            this.studentdel1.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(839, 716);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -105,6 +143,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -116,6 +155,10 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel panel2;
+        private studentreg studentreg1;
+        private studentsearch studentsearch1;
+        private studentdel studentdel1;
     }
 }
 
